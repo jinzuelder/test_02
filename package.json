@@ -1,0 +1,38 @@
+{
+  "name": "test1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bundle-loader": "^0.5.6",
+    "http-proxy": "^1.17.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-app-rewired": "^1.5.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start1": "react-app-rewired start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "/mobile": {
+      "target": "http://game.langl.net",
+      "secure": false
+    }
+  }
+}

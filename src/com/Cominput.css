@@ -1,0 +1,117 @@
+.inputcss {
+  height: 0.8rem;
+  margin: 0.4rem 0.2rem;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  background: rgba(23, 31, 56, 0.5);
+  border-radius: 4px;
+}
+.inputcss i {
+  flex: 0 0 0.8rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 0.8rem;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 0.8rem;
+  -ms-flex: 0 0 0.8rem;
+  color: #515efc;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 0.4rem;
+}
+.inputcss input {
+  flex: 1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 1;
+  -moz-box-flex: 0;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  height: 100%;
+  background: transparent;
+  color: #fff;
+  padding-left: 8px;
+}
+.inputcss input[disabled],
+.inputcss input[readonly]:not(.cloned-text-input),
+.inputcss select[disabled],
+.inputcss select[readonly],
+.inputcss textarea[disabled],
+.inputcss textarea[readonly]:not(.cloned-text-input) {
+  background: transparent!important;
+}
+.inputcss .rightbu {
+  flex: 0 0 100px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100px;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+}
+.inputcss .rightbu button {
+  border: 0;
+  width: 80%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border-radius: 3px;
+  margin: 0.15rem 10%;
+  background: transparent;
+  color: #9a9ea9;
+  box-shadow: 0 0 0 1px #9a9ea9;
+}
+.inputcss .rightbu div {
+  border: 0;
+  text-align: center;
+  width: 80%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border-radius: 3px;
+  margin: 0.15rem 10%;
+  background: transparent;
+  color: #9a9ea9;
+  box-shadow: 0 0 0 1px #9a9ea9;
+}
+.inputcss .iconright {
+  flex: 0 0 0.6rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 0.6rem;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 0.6rem;
+  -ms-flex: 0 0 0.6rem;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 0.3rem;
+  color: #515efc;
+  padding: 0;
+}
+.inputcss .rightbu_sm {
+  flex: 0 0 1.8rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 1.8rem;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 1.8rem;
+  -ms-flex: 0 0 1.8rem;
+  padding: 0 0.2rem;
+}
+.inputcss .rightbu_sm button {
+  border: 0;
+  width: 80%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border-radius: 3px;
+  margin: 0.15rem 10%;
+  background: transparent;
+  color: #505efd;
+  box-shadow: 0 0 0 1px #505efd;
+}
+.inputcss .hintdiv {
+  flex: 0 0 2rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 2rem;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 2rem;
+  -ms-flex: 0 0 2rem;
+  line-height: 0.8rem;
+  color: #ef0002;
+  text-align: right;
+}
