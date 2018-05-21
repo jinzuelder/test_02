@@ -15,7 +15,7 @@ export const input_change = cac('INPUT_CHANGE','key','val');
 
 const login_pass = cac('LOGIN_PASS','data','status');
 
-export function login_passfunc() {
+export function login_passfunc(context) {
   return function (dispatch, getState) {
     var data = '';
     // dispatch(login_pass(data,'start'))
@@ -31,7 +31,8 @@ export function login_passfunc() {
       }
     })
     .then(function(res) {
-      dispatch(login_pass(res.data,'success'))
+      context.router.history.push("/mainpage");
+      // dispatch(login_pass(res.data,'success'))
     })
     .catch(function (error) {
       console.log(error);

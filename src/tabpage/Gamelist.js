@@ -16,7 +16,7 @@ class Register extends Component{
                 <div className="firsttitle">手机号注册</div>
                 <div className="sectitle">
                     <span>已有账号?</span>
-                    <Link to="/Login"><span>立即登录</span></Link>
+                    <Link to="/login"><span>立即登录</span></Link>
                 </div>
                 <Cominput 
                     place="请输入手机号码"

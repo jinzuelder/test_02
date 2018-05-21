@@ -1,0 +1,129 @@
+.goodslistcss {
+  flex: 1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 1;
+  -moz-box-flex: 0;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  padding: 0 0.2rem;
+}
+.goodslistcss .classtitle {
+  height: 0.6rem;
+  line-height: 0.5rem;
+  color: #fff;
+  font-size: 0.22rem;
+  font-weight: bold;
+  border-bottom: 1px solid #586789;
+  text-align: center;
+}
+.goodslistcss .classtitle img {
+  max-height: 60%;
+  vertical-align: middle;
+}
+.goodslistcss .classtitle span {
+  vertical-align: middle;
+}
+.goodslistcss .goodslist {
+  height: 1.4rem;
+  border-bottom: 1px solid #586789;
+  padding: 0.2rem 0;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+.goodslistcss .goodslist .left {
+  flex: 0 0 1.3rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 1.3rem;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 1.3rem;
+  -ms-flex: 0 0 1.3rem;
+  padding: 0 0.2rem 0 0.1rem;
+}
+.goodslistcss .goodslist .left img {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 0 0 rgba(200, 200, 200, 0.1);
+}
+.goodslistcss .goodslist .mid {
+  flex: 1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 1;
+  -moz-box-flex: 0;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  color: #fff;
+}
+.goodslistcss .goodslist .mid .mid_na {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+.goodslistcss .goodslist .mid .mid_Stock {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.2rem;
+}
+.goodslistcss .goodslist .mid .mid_pri {
+  height: 0.3rem;
+  font-weight: bold;
+  color: #ff912d;
+  position: relative;
+  line-height: 0.4rem;
+}
+.goodslistcss .goodslist .mid .mid_pri .mid_pri_unit {
+  float: left;
+  width: 0.4rem;
+  height: 0.4rem;
+  border: 1px solid #2e4372;
+  box-shadow: 0 0 0 1px #ff912d;
+  background: #ff912d;
+  text-align: center;
+  font-size: 0.28rem;
+  color: #2e4372;
+  border-radius: 0.2rem;
+  margin: 0 5px 0 2px;
+  line-height: 0.4rem;
+  transform: translate(0, -2px) scale(0.7);
+}
+.goodslistcss .goodslist .mid .mid_pri .mid_pri_k {
+  float: left;
+  font-size: 0.34rem;
+  line-height: 0.4rem;
+}
+.goodslistcss .goodslist .mid .mid_pri .mid_pri_m {
+  float: left;
+  color: #fff;
+  font-weight: normal;
+  transform: translate(0, 2px) scale(1);
+}
+.goodslistcss .goodslist .right {
+  flex: 0 0 1.1rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 1.1rem;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 1.1rem;
+  -ms-flex: 0 0 1.1rem;
+  position: relative;
+}
+.goodslistcss .goodslist .right .num {
+  position: absolute;
+  height: 0.4rem;
+  width: 100%;
+  bottom: 0;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  color: #ff2b66;
+}
+.goodslistcss .goodslist .right .num i {
+  float: right;
+  font-size: 0.34rem;
+  padding: 0 0.03rem;
+}
+.goodslistcss .goodslist .right .num span {
+  float: right;
+}

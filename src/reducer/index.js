@@ -5,12 +5,14 @@ import { combineReducers } from 'redux';
 import {routerReducer} from 'react-router-redux';
 import {Register} from './register';
 import {Login} from './login';
+import {Mainpage} from './mainpage';
 
 const rootReducer = combineReducers({
     routing: routerReducer,
     /* your reducers */
     Register,
-    Login
+    Login,
+    Mainpage
 });
 
 export default rootReducer;

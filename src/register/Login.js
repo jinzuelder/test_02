@@ -19,11 +19,11 @@ class Login extends Component{
 
     componentWillReceiveProps = () =>{
         var userdata = this.props.data;
-        let context = this.context;
-        if(userdata.lp_result && userdata.lp_result.status === 1){
-            console.log(context)
-            context.router.history.push("/");
-        }
+        // let context = this.context;
+        // if(userdata.lp_result && userdata.lp_result.status === 1){
+        //     console.log(context)
+        //     context.router.history.push("/mainpage");
+        // }
     }
 
     login_pass = () => {
@@ -42,7 +42,7 @@ class Login extends Component{
           .then(function(res) {
             if(res.data.status == 1){
                 console.log(res.data);
-                context.router.history.push("/");
+                context.router.history.push("/mainpage");
             }
           })
           .catch(function (error) {
@@ -54,11 +54,6 @@ class Login extends Component{
         
         var actionfunc = this.props.actions;
         var userdata = this.props.data;
-        // let context = this.context;
-        // if(userdata.lp_result && userdata.lp_result.status === 1){
-        //     console.log(context)
-        //     context.router.history.push("/");
-        // }
 
         return (
             <div className="registercss">
@@ -84,7 +79,7 @@ class Login extends Component{
                     keyval="password"
                 />
 
-                <button className="subbu" onClick={()=>actionfunc.login_passfunc()}>登录</button>
+                <button className="subbu" onClick={()=>this.login_pass()}>登录</button>
             </div>    
         );
     } 
