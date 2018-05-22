@@ -1,7 +1,7 @@
 .shopcss {
   position: absolute;
   top: 0;
-  bottom: 50px;
+  bottom: 0;
   width: 100%;
   font-size: 0.22rem;
 }
@@ -103,10 +103,17 @@
   color: #fff;
   min-width: 80px;
 }
-.shopcss .goodsscroll {
+.shopcss .class_x_scroll {
   position: absolute;
   width: 100%;
   top: 2rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.shopcss .goodsscroll {
+  position: absolute;
+  width: 100%;
+  top: 3.5rem;
   bottom: 0;
   overflow: scroll;
 }

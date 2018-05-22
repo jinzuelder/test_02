@@ -1,6 +1,7 @@
 import React , {Component} from 'react';
 import Shoptitle from './Shoptitle.js';
 import Goodslist from './Goodslist.js';
+import SlideBox from '../../com/SlideBox.js';
 import './shopcss.css';
 
 class Shop extends Component{
@@ -12,6 +13,9 @@ class Shop extends Component{
                 <Shoptitle 
                     cominfo={data.cominfo}
                 />
+                <div className="class_x_scroll">
+                    <SlideBox />
+                </div>
                 <div className="goodsscroll">
                     <Goodslist 
                         goods = {data.goods}

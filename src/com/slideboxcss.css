@@ -1,0 +1,31 @@
+.slidebox-par {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.slidebox-par .slider-slides {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.slidebox-par .slider-slides .slider-slide {
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+.slidebox-par .slider-pagers {
+  width: auto;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+.slidebox-par .slider-pagers .slider-pager {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  float: right;
+  margin: 5px;
+}
